@@ -1119,10 +1119,21 @@ ul.slides li {
 	}
 
 	.hero h1 {
-		font-size: 100px;
+		font-size: 80px;
 		line-height: 80px;
 		margin-top: 65px;
 }
+
+#me {
+	width: 100%;
+	height: auto;
+}
+
+.pf-img {
+	width: 100%;
+	margin: 0 auto;
+	}
+
 }
 /* 480px (WVGA - Low End Windows Phone) */
 @media screen and (max-width:480px) {
@@ -1227,6 +1238,10 @@ ul.slides li {
 	.show-menu .menu-wrap {
 		height: 100%;
 	}
+
+	h1 {
+		font-size: 1px;
+	}
 }
 
 
@@ -1237,5 +1252,8 @@ ul.slides li {
 
 	.subscribe {
 	    padding-bottom: 40px;
+	}
+	h1 {
+		font-size: 20px;
 	}
 }
