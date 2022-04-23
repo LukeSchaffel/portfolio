@@ -579,6 +579,7 @@ h1.arrow span {
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	background-size:cover;
+	border-radius: 2%;
 }
 .color-bg {
 	background: #E04343;
